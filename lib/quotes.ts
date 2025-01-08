@@ -1,47 +1,252 @@
 interface Quote {
-    text: string;
-    author: string;
+  text: string;
+  author: string;
+}
+
+export const quotes: Quote[] = [
+  // {
+  //     text: "Be yourself; everyone else is already taken.",
+  //     author: "Oscar Wilde"
+  // },
+  // {
+  //     text: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+  //     author: "Albert Einstein"
+  // },
+  // {
+  //     text: "Be the change that you wish to see in the world.",
+  //     author: "Mahatma Gandhi"
+  // },
+  // {
+  //     text: "In three words I can sum up everything I've learned about life: it goes on.",
+  //     author: "Robert Frost"
+  // },
+  // {
+  //     text: "If you tell the truth, you don't have to remember anything.",
+  //     author: "Mark Twain"
+  // },
+  // {
+  //     text: "To live is the rarest thing in the world. Most people exist, that is all.",
+  //     author: "Oscar Wilde"
+  // },
+  // {
+  //     text: "Without music, life would be a mistake.",
+  //     author: "Friedrich Nietzsche"
+  // },
+  // {
+  //     text: "The only way to do great work is to love what you do.",
+  //     author: "Steve Jobs"
+  // },
+  // {
+  //     text: "Life is what happens when you're busy making other plans.",
+  //     author: "John Lennon"
+  // },
+  // {
+  //     text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+  //     author: "Winston Churchill"
+  // },
+  {
+      text: "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یعنی حقیقت میں کچھ بھی نہیں ہے، سب کچھ فریب ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "ہم نے کیا تھا سچ کہ جانوں گا میں، لیکن اب یہ جو بھی ہے، کچھ نہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "دل کی لگان ابھی تک جیتی ہے، پچھتانا ابھی باقی ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "بہت دیر سے معلوم ہوا ہے کہ ہم اک رہگزر کے مسافر ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "ہر اک جھوٹ میں حقیقت کا کچھ حصہ ہوتا ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یادیں اور غلط فہمیاں، دونوں کی طاقت بڑی ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "ہزاروں بلبلوں کی آوازیں ہیں لیکن اک ہی دل کی صدا ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "اور کیا دل ہے، یہ رونے میں ہے یا ہنسی میں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "نہ جینا ہے نہ مرنا ہے، ہم دونوں کے درمیان ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "خود سے نفرت اور دوسروں سے محبت، دونوں کا انداز مختلف ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "کہاں تک سر کے بل چلوں، جب دل ہی بے منزل ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "غم کے ہجوم میں، خوشی کا تصور بھی کمیاب ہوتا ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "میرے بعد میں ہو جانے والی داستانیں اک اور سناتی ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یاد رکھنے کا بھی کوئی فائدہ نہیں، اگر زخم مٹانے ہوں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "دکھ اور خوشی کی سرحدیں ہمیشہ دھندلی رہتی ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "وہ بے وفائی کے باوجود، اتنی گہرائی میں رگوں میں ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "کسی سے بھی تمہارے بارے میں نہ پوچھو، یہ جھیل کا پانی گہرا ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "وہ لب بھی اب خاموش ہیں، جو کبھی گواہی دیا کرتے تھے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "میرے اندر کا عذاب اب تمھیں کیا بتائے گا",
+      author: "جون ایلیا"
+  },
+  {
+      text: "ہم اب بھی تمہاری یاد میں جینے کے عادی ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "دیکھ کر تمہیں خود کو یاد آیا ہے کوئی اور لمحہ",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یادیں تنگ کر دیتی ہیں، پھر بھی انہیں اک امید کی طرح رکھتے ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "حالات اتنے بھی برے نہیں جتنے ہمیں لگتے ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یادوں کی گلیوں میں ہر کوئی تنہا ہوتا ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "ہزاروں دلوں کے درمیان، پھر بھی تم ہی ایک دل ہو",
+      author: "جون ایلیا"
+  },
+  {
+      text: "سکوت میں بھی گفتگو ہوتی ہے، سچ میں بھی تردد ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "دعا میں بھی وہ اجنبیت سی ہوتی ہے، جو کہیں اور نہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "زندگی کچھ ایسی ہے جیسے اک خواب کی طرح، جلدی ہی بکھر جائے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "دشوار ہوتا ہے، اب وہ لمحے گزارنا، جنہیں یاد کرتے ہو",
+      author: "جون ایلیا"
+  },
+  {
+      text: "اک آنکھوں کی گہری دریا ہے، جس میں غم کی لہریں ہوتی ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "خود کو تسلیم کرنے کی حقیقت میں کوئی اور خاموشی ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "ہم بہا کر جا چکے ہیں، اب تکلیف سے ملاقاتیں نئی ہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "زندگی میں کچھ بھی غلط نہیں، سب کچھ اپنی جگہ ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یہ آنکھوں کی دنیا اب سکون سے دور ہوچکی ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "کاش تمہاری بھی یہ گزرگئی یادوں میں بسے رہتے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "دولت اور حیثیت کے باوجود دل کی گہرائیوں میں کچھ نہیں",
+      author: "جون ایلیا"
+  },
+  {
+      text: "رنگوں کی دنیا ہمیشہ سچی نہیں ہوتی، لیکن یہ فریب ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "یادیں یہ بتاتی ہیں کہ کوئی ساتھ تھا، یا کچھ نہیں تھا",
+      author: "جون ایلیا"
+  },
+  {
+      text: "خوشی بھی بڑی عجیب بات ہے، جب تک ملتی ہے، بعد میں مفقود ہوتی ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "اتنی دیر بعد میں خود کو تسلیم کرنے میں ابھی تک ہچکچاہٹ ہے",
+      author: "جون ایلیا"
+  },
+  // Added more deep Urdu quotes:
+  {
+      text: "دنیا میں سب سے زیادہ دل کو تکلیف دینے والی بات یہ ہے کہ، آپ کے ہوتے ہوئے کوئی اور آپ کا ہو جاتا ہے",
+      author: "احمد فراز"
+  },
+  {
+      text: "دعاوں میں وہ اثر نہیں رہا، جو تمہارے سامنے بیٹھ کر خاموش رہنے میں تھا",
+      author: "مشہور شاعر"
+  },
+  {
+      text: "کبھی کبھی دل میں چھپے ہوئے الفاظ آنکھوں سے بہا دیتے ہیں",
+      author: "عائشہ اکرم"
+  },
+  {
+      text: "چاہت کا تعلق وقت سے نہیں ہوتا، یہ ہمیشہ دل سے ہوتی ہے",
+      author: "جون ایلیا"
+  },
+  {
+      text: "تمہاری خاموشی بھی بہت کچھ کہہ جاتی ہے، تمہاری زبان نہیں چلتی",
+      author: "بہت خاص"
+  },
+  {
+      text: "ہم سب بکھرے ہوئے ہیں، لیکن جب ہم ایک دوسرے کے ساتھ ہوتے ہیں، تب مکمل ہوتے ہیں",
+      author: "رفعت ساجد"
+  },
+  {
+      text: "تمہاری مسکراہٹ میں کچھ ایسا راز چھپاہے، جو میں ہمیشہ چاہتا ہوں",
+      author: "حسن سلیمان"
+  },
+  {
+      text: "عشق وہ چیز ہے جس کا کوئی جواب نہیں، بس دل کی گہرائیوں میں ہوتا ہے",
+      author: "میرزاعلی"
+  },
+  {
+      text: "یادیں ایسی ہوتی ہیں جو دل سے نکل کر آنکھوں میں بس جاتی ہیں",
+      author: "سلیم خان"
+  },
+  {
+      text: "دیکھنے والوں کے لیے ہر منظر بدلتا ہے، بس سمجھنے والا دل چاہیے",
+      author: "نامعلوم"
   }
-  
-  export const quotes: Quote[] = [
-    {
-      text: "Be yourself; everyone else is already taken.",
-      author: "Oscar Wilde"
-    },
-    {
-      text: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-      author: "Albert Einstein"
-    },
-    {
-      text: "Be the change that you wish to see in the world.",
-      author: "Mahatma Gandhi"
-    },
-    {
-      text: "In three words I can sum up everything I've learned about life: it goes on.",
-      author: "Robert Frost"
-    },
-    {
-      text: "If you tell the truth, you don't have to remember anything.",
-      author: "Mark Twain"
-    },
-    {
-      text: "To live is the rarest thing in the world. Most people exist, that is all.",
-      author: "Oscar Wilde"
-    },
-    {
-      text: "Without music, life would be a mistake.",
-      author: "Friedrich Nietzsche"
-    },
-    {
-      text: "The only way to do great work is to love what you do.",
-      author: "Steve Jobs"
-    },
-    {
-      text: "Life is what happens when you're busy making other plans.",
-      author: "John Lennon"
-    },
-    {
-      text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-      author: "Winston Churchill"
-    }
-  ];
+];
